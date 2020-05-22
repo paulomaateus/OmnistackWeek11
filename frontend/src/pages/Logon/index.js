@@ -20,7 +20,7 @@ export default function Logon (){
             localStorage.setItem('ongId', id)
             localStorage.setItem('ongName', response.data.name);
         }catch(err){
-            alert('erro');
+            alert('Erro ao realizar logon, tente novamente.');
         }
     
     }
