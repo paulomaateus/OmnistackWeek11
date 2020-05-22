@@ -13,12 +13,21 @@ export default StyleSheet.create({
         justifyContent: 'space-between',
         alignItems: 'center'
     },
+
+    title :{
+        fontSize : 20,
+        marginBottom: 16,
+        marginTop :48,
+        color: '#13131a',
+        fontWeight : 'bold'
+    },
+
     incident:{
         padding : 24,
         borderRadius: 28,
         backgroundColor: '#fff',
         marginBottom : 16,
-        marginTop: 48
+        marginTop: 5
     },
 
     incidentProperty :{
